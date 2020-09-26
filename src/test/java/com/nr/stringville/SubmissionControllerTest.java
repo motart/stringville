@@ -17,7 +17,7 @@ import static org.junit.Assert.assertThat;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
-public class StringvilleControllerTest {
+public class SubmissionControllerTest {
 
     @LocalServerPort
     private int port;

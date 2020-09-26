@@ -1,4 +1,4 @@
-package com.nr.stringville;
+package com.nr.stringville.models;
 
 import com.sun.corba.se.spi.ior.ObjectId;
 

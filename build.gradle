@@ -30,5 +30,5 @@ dependencies {
     // https://mvnrepository.com/artifact/com.h2database/h2
     runtimeOnly('com.h2database:h2')
     implementation("org.springframework.boot:spring-boot-starter-data-jpa")
-
+    compile group: 'com.google.guava', name: 'guava', version: '23.5-jre'
 }
