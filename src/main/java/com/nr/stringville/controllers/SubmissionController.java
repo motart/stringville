@@ -88,7 +88,7 @@ public class SubmissionController {
             // Limit the result size to the least of TOP_LIST_SIZE or records count
             int maxRecords = Math.min(submissions.size(),TOP_LIST_SIZE);
             for (int i = 0; i < maxRecords; i++) {
-                response.append(submissions.get(i).getName()).append(",").append(calculateScore(submissions.get(i).getString()));
+                response.append(submissions.get(i).getName()).append(",").append(submissions.get(i).getScore());
                 // Add a line break if not at the end of the list
                 if (i < maxRecords - 1) {
                     response.append("\n");
