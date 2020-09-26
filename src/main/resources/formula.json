@@ -1,0 +1,32 @@
+{
+  "a": {
+    "frequency": "exactly",
+    "count": 3,
+    "points": 1
+  },
+  "e": {
+    "frequency": "exactly",
+    "count": 2,
+    "points": 5
+  },
+  "i": {
+    "frequency": "every",
+    "count": 2,
+    "points": 2
+  },
+  "g": {
+    "frequency": "exactly",
+    "count": 1,
+    "points": 3
+  },
+  "u": {
+    "frequency": "every",
+    "count": 1,
+    "points": 1
+  },
+  "z": {
+    "frequency": "every",
+    "count": 1,
+    "points": -10
+  }
+}
