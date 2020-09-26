@@ -220,7 +220,7 @@ public class StringvilleControllerTest {
     private List<Submission> getSubmissions(int n) {
         List<Submission> result = new ArrayList<>();
         for (int i = 0; i < n; i++) {
-            result.add(new Submission("name","string", 2));
+            result.add(new Submission("name","string", 3));
         }
         return result;
     }

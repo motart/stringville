@@ -4,29 +4,27 @@
 irresponsive. Should this assumption be altered, we'd need a new microservice to monitor the Springville app for us. 
 
 
-# TO-DO
-1) Sort results before submitting them
-1) Document additional test cases
-1) Anything I'd have done differently with more time
-
-
 # With more time
 1) Add logging to file
 1) Create a lightweight angular page for data display and rules config??
-1) Resolve the </br> /n issue
+1) Resolve the </br> /n issue, currently works in postman (\n) but not in browser (</br>)
 1) Handle error page instead of displaying white label page
 
-# Done
-1) Renamed most classes from Stringville to Submission for clarity
-
 # Dependencies
-1) Added H2, Guava, JPA, ...
+1) H2: Used an in-memory DB to spare the grader the need to do any additional installations
+1) Guava: Used Charmatcher to verify is the submission is ascii or not
+1) JPA: Used JPA for persistence
 
-# How to see data
+# How to see data in browser
 http://localhost:8080/h2-console 
 user = sa
 password=password
 <configurable through application.properties>
 
+# How to test this app
+1) Provided with the initial template were
+    1) run.sh: This enables the tester to start the app from the command line using `$ ./run.sh`
+    1) test.sh: This enables the tester to run test on an already up and running app, in localhost and on port 8080, from the command line using `$ ./test.sh`
 
+``Note: Test cases can be edited and increased by editing test.sh``
 
